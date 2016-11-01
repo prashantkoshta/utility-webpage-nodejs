@@ -1,0 +1,28 @@
+{
+  "name": "utility-webpage-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashantkoshta/utility-webpage-nodejs.git"
+  },
+  "author": "Prashant Koshta <prashantkoshta@gmail.com> (http://devcli.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashantkoshta/utility-webpage-nodejs/issues"
+  },
+  "homepage": "https://github.com/prashantkoshta/utility-webpage-nodejs#readme",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "typescript": "^2.0.6"
+  },
+  "devDependencies": {},
+  "description": ""
+}
