@@ -1,5 +1,5 @@
 {
-  "name": "utility-webpage-nodejs",
+  "name": "utility-webpage",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,12 @@
   },
   "homepage": "https://github.com/prashantkoshta/utility-webpage-nodejs#readme",
   "dependencies": {
-    "fs-extra": "^0.30.0",
     "typescript": "^2.0.6"
   },
-  "devDependencies": {},
-  "description": ""
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "typescript": "^2.0.6",
+    "typings": "^1.5.0"
+  },
+  "description": "This utility to provide build folder structure for files which are downloaded from Web Page Downlader Chrome Extension."
 }
