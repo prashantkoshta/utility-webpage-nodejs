@@ -8,6 +8,5 @@ var Main = (function () {
     }
     return Main;
 }());
-exports.Main = Main;
 module.exports = new Main(process.argv);
 //# sourceMappingURL=index.js.map

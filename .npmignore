@@ -6,7 +6,9 @@
 /temp
 tsconfig.json
 typings.json
-*/**/*.map
 /node_modules
 /.git
-*/**/*.ts
+**/*.ts
+**/*.map
+**/*.sh
+**/*.bat
