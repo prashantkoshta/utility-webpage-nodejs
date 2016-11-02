@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 "use strict";
 var process = require("process");
 var httprun = require("./bin/httprun");
@@ -9,4 +10,3 @@ var Main = (function () {
     return Main;
 }());
 module.exports = new Main(process.argv);
-//# sourceMappingURL=index.js.map

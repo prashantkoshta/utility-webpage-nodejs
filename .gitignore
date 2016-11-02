@@ -2,3 +2,5 @@
 /typings
 /source
 /target
+**/*.js
+**/*.map

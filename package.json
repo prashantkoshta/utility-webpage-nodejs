@@ -1,27 +1,38 @@
 {
   "name": "utility-webpage",
-  "version": "0.0.11",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "bin": {
-    "utility-webpage": "./bin/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prashantkoshta/utility-webpage-nodejs.git"
-  },
+  "version": "0.0.10",
+  "description": "This utility to provide build folder structure for files which are downloaded from Web Page Downlader Chrome Extension.",
+  "keywords": [
+    "web page downloader",
+    "utility-webpage",
+    "utility webpage",
+    "webpage",
+    "clone site",
+    "dump web page",
+    "prashant",
+    "koshta",
+    "command line"
+  ],
   "author": "Prashant Koshta <prashantkoshta@gmail.com> (http://devcli.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/prashantkoshta/utility-webpage-nodejs/issues"
   },
   "homepage": "https://github.com/prashantkoshta/utility-webpage-nodejs#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "utility-webpage": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashantkoshta/utility-webpage-nodejs.git"
+  },
   "devDependencies": {
     "mocha": "^3.1.2",
     "typescript": "^2.0.6",
     "typings": "^1.5.0"
-  },
-  "description": "This utility to provide build folder structure for files which are downloaded from Web Page Downlader Chrome Extension."
+  }
 }

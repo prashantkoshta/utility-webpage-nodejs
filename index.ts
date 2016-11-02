@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 "use strict";
 import * as process from "process";
 import * as httprun from "./bin/httprun";

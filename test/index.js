@@ -39,4 +39,3 @@ describe('httprun', function () {
         });
     });
 });
-//# sourceMappingURL=index.js.map
