@@ -1,0 +1,12 @@
+/.vscode
+/source
+/target
+/test
+/typings
+/temp
+tsconfig.json
+typings.json
+*/**/*.map
+/node_modules
+/.git
+*/**/*.ts
